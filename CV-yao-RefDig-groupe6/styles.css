@@ -1,0 +1,308 @@
+body{
+    width: 500px;
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: px;
+}
+
+/* mon cv proprement dit */
+main{
+    background-color: #d3aaaa;
+    width: 1000px;
+    height: 1000px;
+    margin-left: 250px;
+}
+
+/* image et nom pour la mise en forme */
+.img-nom{
+    display: flex;
+    align-items: center;
+    background-color: rgb(6, 78, 138);
+}
+
+h1{
+    color: white;
+}
+
+/* mise en forme de la div .info-pers */
+.info-pers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(6, 78, 138);
+    height: 200px;
+}
+
+.yao{
+    position: relative;
+    bottom: 15px;
+    margin: 25px;
+    width: 130px;
+    height: 130px;
+    border-radius: 65px 65px 65px 65px;
+}
+
+img{
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.address{
+    display: block;
+    position: relative;
+    right: 20px;
+    bottom: 10px;
+} 
+
+.icone{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.icon1{
+    position: relative;
+    right: 10px;
+    padding: 3px;
+
+}
+
+/* mise en forme de la div socio partie bleue foncée */
+.socio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 25px;
+    background-color: rgb(2, 29, 148);
+    height: 40px;
+}
+
+.reso{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 50px;
+}
+
+.resoo{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.icon{
+    position: relative;
+    right: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* mise en forme de div object */
+
+.object{
+    position: relative;
+    top: 20px;
+    left: 35px;
+    display: block;
+    border: solid rgb(230, 81, 81);
+    height: 250px;
+    width: 400px;
+    padding: 15px;
+
+}
+
+
+section.edu{
+    position: relative;
+    bottom: 100px;
+    display: block;
+    border: solid rgb(230, 81, 81);
+    height: 250px;
+    width: 400px;
+    padding: 15px;
+
+}
+
+
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 78, 138);
+    color: white;
+    text-align: center;
+    border-radius: 25px 25px 25px 25px;
+    height: 35px;
+}
+
+/* section educative */
+
+.annee{
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    float: left;
+}
+
+.diplomes{
+    position: relative;
+    top: 7px;
+    margin-left: 150px;
+}  
+
+.hovers{
+    position: absolute;
+    top: 286px;
+    left: 783px;
+}
+
+.hovers:hover{
+    transform: scale(1.2);
+    transition: 0.3s all;
+}
+
+.hovers:hover{
+    transition: 0.4s all;
+    box-shadow: -13px 13px 2px 1px rgba(18, 18, 59, 0.5);
+
+}
+
+/* section langue */
+
+.lang{
+    position: absolute;
+    left: 783px;
+    top: 600px;
+}
+
+
+
+/* .pros{
+    background-color: rgb(78, 129, 240);
+    color: white;
+    width: 300px;
+}
+
+.prg{
+    background-color: rgb(38, 187, 187);
+    color: white;
+    width: 200px;
+}
+
+.pross{
+    background-color: rgb(240, 75, 75);
+    color: white;
+    width: 150px;
+} */
+
+.obj1{
+    list-style-type: none;
+    font-weight: bolder;
+}
+
+.diplo{
+    font-weight: normal;
+}
+
+.flotte:hover{
+    transform: scale(1.1);
+    transition: 0.3s all;
+}
+
+.flotte:hover{
+    transition: 0.4s all;
+    box-shadow: -13px 13px 2px 1px rgba(18, 18, 59, 0.5);
+
+}
+
+
+/* mise en en forme de la partie competence */
+
+.skills{
+    position: relative;
+    bottom: 50px;
+    right: 50px;
+    width: 400px;
+    margin: 60px;
+    color: black;
+}
+
+.skill{
+    margin: 20px 0;
+}
+
+.bar{
+    background-color: #353b48;
+    display: block;
+    height: 5px;
+    width: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span{
+    height: 5px;
+    float: left;
+    background: #02ff02;
+}
+
+
+.php{
+    width: 20%;
+    animation: php 4s;
+}
+
+
+.js{
+    width: 30%;
+    animation: js 3s;
+}
+
+.css{
+    width: 50%;
+    animation: css 2s;
+}
+
+
+@keyframes php {
+        0%{
+            width: 0%;
+        }
+
+        100%{
+            width: 20%;
+        }
+}
+
+@keyframes js {
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 30%;
+    }
+}
+
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 50%;
+    }
+}
+
+
